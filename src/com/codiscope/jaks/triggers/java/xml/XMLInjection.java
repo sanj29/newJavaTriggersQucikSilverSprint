@@ -10,8 +10,8 @@ public class XMLInjection {
 
 	public void test() throws ParserConfigurationException, SAXException, IOException {
 		
-		DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
-        
+		//DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+		DocumentFactory docBuilderFactory = DocumentFactory.newInstance();
 		DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
 	}
 }
