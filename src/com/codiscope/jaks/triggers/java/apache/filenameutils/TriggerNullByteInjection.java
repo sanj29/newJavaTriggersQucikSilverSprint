@@ -40,7 +40,7 @@ public class TriggerNullByteInjection {
     }
 
     private char[] createInvalidFileName() {
-        return new char[] {' ', ' ', ' ', ' '};
+        return new char[] {'0', 'x', '0','0'};
     }
 
     public void negativeTest() {
